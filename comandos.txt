@@ -1,1 +1,4 @@
 git status - mostra as mudanças aguardando commit
+git add .  - adiciona todos os arquivos no repositorio
+git commit -m "alterando o limite para 100 nos arquivos"
+git log    - motra o historico de alterações nos arquivos
