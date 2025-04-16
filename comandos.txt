@@ -35,6 +35,6 @@ git add .
 git commit -m “MENSAGEM”
 git push origin main
 
-Execute git remote -v para listar as entradas remotas configuradas e suas URLs.
+Execute git remote -v para listar as entradas remotas configuradas e suas URLs
  
 
