@@ -25,7 +25,7 @@ Execute o comando git pull origin main para trazer as últimas alterações do r
 
 
 --------
-baixar um respositorio no computador
+baixar um respositorio no computador 
 git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 
 git pull origin main
