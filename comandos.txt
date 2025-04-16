@@ -15,5 +15,26 @@ $ git commit -m "Adicionar nova funcionalidade.
 >
 >
 Co-authored-by: NOME <nome@email.com>
-Co-authored-by: OUTRO-NOME <outro@email.com>" 
+Co-authored-by: OUTRO-NOME <outro@email.com>"
+
+git pull - baixar as mudanças para o repositorio local
+
+git pull origin main
+Execute o comando git pull origin main para trazer as últimas alterações do repositório remoto para o seu local.
+
+
+--------
+baixar um respositorio no computador
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+
+git pull origin main
+
+git status
+
+git add .
+git commit -m “MENSAGEM”
+git push origin main
+
+Execute git remote -v para listar as entradas remotas configuradas e suas URLs.
+ 
 
