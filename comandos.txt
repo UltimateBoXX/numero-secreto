@@ -2,3 +2,39 @@ git status - mostra as mudanças aguardando commit
 git add .  - adiciona todos os arquivos no repositorio
 git commit -m "alterando o limite para 100 nos arquivos"
 git log    - motra o historico de alterações nos arquivos
+
+
+	M: A letra M representa o estado Modified, do português modificado. Isso significa que o arquivo já existia no repositório, mas que recebeu alguma modificação que ainda não foi registrada no Git.
+
+	U: A letra U representa o estado Untracked, do português não rastreado. Isso significa que o arquivo ainda não existia no repositório e que ainda não teve seu registro (commit) feito no Git.
+
+git remote - mostra a origem do repositorio
+git push   - envia os arquivos para o repositorio
+
+- Dois autores no commit
+$ git commit -m "Adicionar nova funcionalidade.
+>
+>
+Co-authored-by: NOME <nome@email.com>
+Co-authored-by: OUTRO-NOME <outro@email.com>"
+
+git pull - baixar as mudanças para o repositorio local
+
+git pull origin main
+Execute o comando git pull origin main para trazer as últimas alterações do repositório remoto para o seu local.
+
+
+--------
+baixar um respositorio no computador
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+
+git pull origin main
+
+git status
+
+git add .
+git commit -m “MENSAGEM”
+git push origin main
+
+Execute git remote -v para listar as entradas remotas configuradas e suas URLs
+ 
