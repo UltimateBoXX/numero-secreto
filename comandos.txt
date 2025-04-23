@@ -63,7 +63,8 @@ git revert 24a3d98d4ebfec778bd7addf859859e06d5ab495
 retornar um comit para tras
 git reset --hard 4546651851ed97456ecb488286f8b55de50f22b4
 
-
+alterar um comit
+git commit --amend -m “NOVA MENSAGEM”
 
 
 
